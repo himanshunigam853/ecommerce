@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .navbar{
+        display: flex;
+        border: 2px solid black;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    .pro1{
+        /* background-color: red; */
+        display: flex;
+        justify-content: center;
+    }
+    .bellicon{
+        display: none;
+    }
+    .profile{
+        display: none;
+    }
+
+    .slider{
+        display: none;
+    }
+
+    .footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .box{
+    width: 50%;
+    }
+}
